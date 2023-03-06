@@ -1,0 +1,19 @@
+{
+  "name": "basic",
+  "version": "0.1.0",
+  "bin": {
+    "basic": "bin/app.ts"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.67.0",
+    "constructs": "^10.1.269"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
